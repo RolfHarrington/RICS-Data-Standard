@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rics:IlmsMeasurement xmlns:rics="urn:xsdschema:rics:3.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ifc="http://www.buildingsmart-tech.org/ifc/IFC4x1/final" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" description="String" rics_ilms_uref="ilms1074584022020" xsi:schemaLocation="urn:xsdschema:rics:3.1.0 rics-3.1.0.xsd">
+	<rics:GeneratedBy name="Andrew Knight"/>
+	<rics:MetaData>
+		<rics:StatedCurrency iso4217Code="GBP" isPrimaryCurrency="true"/>
+		<rics:Property>
+			<rics:GUID name="UPRN" id="200001025758"></rics:GUID>
+			<rics:Address>
+				<xal:AddressDetails>
+					<xal:AddressLines>
+						<xal:AddressLine>10, The High Street</xal:AddressLine>
+					</xal:AddressLines>
+				</xal:AddressDetails>
+			</rics:Address>
+		</rics:Property>
+	</rics:MetaData>
+	<rics:Valuations>
+		<rics:ReportDate>
+			<rics:Date>2020-02-11</rics:Date>
+		</rics:ReportDate>
+		<rics:ValuationDate>
+			<rics:Date>2020-01-02</rics:Date>
+		</rics:ValuationDate>
+		<rics:Valuation>
+			<rics:BasisOfValue>marketValue</rics:BasisOfValue>
+			<rics:SpecialAssumptions>Vacant Possession</rics:SpecialAssumptions>
+			<rics:CapitalValue>
+				<rics:Value>899000</rics:Value>
+				<rics:ReinstatementCost>
+					<rics:Value>280000</rics:Value>
+					<rics:CostDate>
+						<rics:Date>2020-01-02</rics:Date>
+					</rics:CostDate>			
+				</rics:ReinstatementCost>
+			</rics:CapitalValue>
+		</rics:Valuation>
+	</rics:Valuations>
+</rics:IlmsMeasurement>

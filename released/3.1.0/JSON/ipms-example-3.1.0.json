@@ -1,0 +1,137 @@
+{
+	"rics:IpmsMeasurement": {
+		"rics:GeneratedBy": {
+			"@name": "Andrew Knight"
+		},
+		"rics:MetaData": {
+			"@reportStatus": "Final",
+			"@reportRevisionNumber": "1",
+			"@methodology": "Laser",
+			"@verification": "measuredOnSite",
+			"rics:PreparedFor": [
+				{
+					"@name": "Aura House Investments"
+				}
+			],
+			"rics:Compliance": {
+				"rics:PreparedBy": [
+					{
+						"@name": "Andrew Knight"
+					}
+				],
+				"rics:CertifiedBy": [
+					{
+						"@name": "Andrew Knight"
+					}
+				]
+			},
+			"rics:ReportDate": {
+				"rics:Date": "2018-08-28"
+			},
+			"rics:Property": {
+				"@primaryUse": "Office",
+				"@description": "Aura House",
+				"rics:Address": {
+					"xal:AddressDetails": [
+						{
+							"xal:AddressLines": {
+								"xal:AddressLine": [
+									"1 High Street"
+								]
+							}
+						}
+					]
+				}
+			},
+			"rics:AreaUnitOfMeasure": [
+				{
+					"@scaleFactor": 1,
+					"@isPrimaryUnitMeasurement": true,
+					"$": "MTK"
+				}
+			],
+			"rics:Accuracy": {
+				"rics:Value": {
+					"@valueAsText": "5mm"
+				}
+			},
+			"rics:MeasuredBy": [
+				{
+					"@name": "Andrew Knight"
+				}
+			],
+			"rics:InstructedMeasurementDate": {
+				"rics:Date": "2018-08-01"
+			},
+			"rics:MeasurementDate": {
+				"rics:Date": "2018-08-10"
+			}
+		},
+		"rics:MeasuredProperty": [
+			{
+				"@primaryUse": "Office",
+				"rics:Floors": [
+					{
+						"@id": "0",
+						"@primaryUse": "Office",
+						"@description": "Office space",
+						"rics:MeasuredComponents": [
+							{
+								"@reference": "Open plan office",
+								"@uniclassCategory": "Co_20_15_58",
+								"@componentArea": "G",
+								"@componentUsage": "Private",
+								"@description": "Ground floor office",
+								"rics:Ipms2MeasuredArea": {
+									"rics:MeasurementValue": 52
+								}
+							}
+						],
+						"rics:Ipms1MeasuredFloorArea": {
+							"rics:MeasurementValue": 52
+						},
+						"rics:Ipms2MeasuredFloorArea": {
+							"rics:MeasurementValue": 50
+						},
+						"rics:Ipms3MeasuredFloorArea": [
+							{
+								"@measurementSubtype": "3",
+								"rics:MeasurementValue": 50
+							}
+						]
+					}
+				],
+				"rics:Ipms1MeasuredArea": {
+					"rics:MeasurementValue": 52
+				},
+				"rics:Ipms2MeasuredArea": {
+					"rics:MeasurementValue": 50
+				},
+				"rics:Ipms3MeasuredArea": [
+					{
+						"@measurementSubtype": "3",
+						"rics:MeasurementValue": 50,
+						"rics:Occupier": [
+							{
+								"@name": "Aura House Investments",
+								"rics:Share": 100
+							}
+						]
+					}
+				]
+			}
+		],
+		"rics:Ipms1MeasuredAreaSummary": {
+			"rics:MeasurementValue": 52
+		},
+		"rics:Ipms2MeasuredAreaSummary": {
+			"rics:MeasurementValue": 50
+		},
+		"rics:Ipms3MeasuredAreaSummary": [
+			{
+				"@measurementSubtype": "3",
+				"rics:MeasurementValue": 50
+			}
+		]
+	}
+}

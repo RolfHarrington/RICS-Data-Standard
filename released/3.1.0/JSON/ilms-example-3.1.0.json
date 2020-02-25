@@ -1,0 +1,65 @@
+{
+	"rics:IlmsMeasurement": {
+		"@description": "String",
+		"@rics_ilms_uref": "ilms1074584022020",
+		"rics:GeneratedBy": [
+			{
+				"@name": "Andrew Knight"
+			}
+		],
+		"rics:MetaData": {
+			"rics:StatedCurrency": [
+				{
+					"@iso4217Code": "GBP",
+					"@isPrimaryCurrency": true
+				}
+			],
+			"rics:Property": {
+				"rics:GUID": [
+					{
+						"@name": "UPRN",
+						"@id": "200001025758"
+					}
+				],
+				"rics:Address": {
+					"xal:AddressDetails": [
+						{
+							"xal:AddressLines": {
+								"xal:AddressLine": [
+									"10, The High Street"
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		"rics:Valuations": [
+			{
+				"rics:ReportDate": {
+					"rics:Date": "2020-02-11"
+				},
+				"rics:ValuationDate": {
+					"rics:Date": "2020-01-02"
+				},
+				"rics:Valuation": [
+					{
+						"rics:BasisOfValue": "marketValue",
+						"rics:SpecialAssumptions": [
+							"Vacant Possession"
+						],
+						"rics:CapitalValue": {
+							"rics:Value": 899000,
+							"rics:ReinstatementCost": {
+								"rics:Value": 280000,
+								"rics:CostDate": {
+									"rics:Date": "2020-01-02"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}
